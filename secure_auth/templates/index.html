@@ -1,0 +1,6 @@
+{% extends "layout.html" %}
+
+{% block page_content %}
+    Вы авторизованы!<br>
+    <a href="{% url "logout" %}">Выйти</a>
+{% endblock %}
